@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>刘娟琴 | 工业自动化解决方案专家</title>
+    <style>
+        :root {
+            --primary-color: #005A9C;
+            --accent-color: #FFD700;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background: #F5F5F5;
+        }
+
+        .header {
+            background: var(--primary-color);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .nav {
+            background: #1A1A1A;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .nav a {
+            color: white;
+            margin: 0 2rem;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        .tech-tag {
+            background: var(--accent-color);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>刘娟琴</h1>
+        <p>PLC优化专家 | 生产设备诊断工程师</p>
+        <div class="contact">
+            <p>📞 155-2264-7117</p>
+            <p>📧 luxf@automation.com</p>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <a href="#home">主页</a>
+        <a href="#services">专业服务</a>
+        <a href="#projects">项目案例</a>
+        <a href="#contact">联系我们</a>
+    </nav>
+
+    <main class="container">
+        <section id="home">
+            <h2>专业领域</h2>
+            <div class="tech-stack">
+                <span class="tech-tag">PLC程序优化</span>
+                <span class="tech-tag">设备故障诊断</span>
+                <span class="tech-tag">产线效率提升</span>
+                <span class="tech-tag">工业自动化</span>
+            </div>
+            <p>专注工业自动化领域10年，累计优化200+生产线控制系统，平均提升效率30%</p>
+        </section>
+
+        <section id="services">
+            <h2>核心服务</h2>
+            <div class="project-card">
+                <h3>PLC程序优化</h3>
+                <p>采用模块化编程技术，实现逻辑优化与扫描周期缩短</p>
+                <button onclick="showDemo()">查看优化案例演示</button>
+            </div>
+            
+            <div class="project-card">
+                <h3>设备诊断系统</h3>
+                <p>基于故障树分析的智能诊断平台开发</p>
+                <img src="diagnostic-interface.png" alt="诊断界面" style="width:100%;border-radius:8px">
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>典型案例</h2>
+            <div class="project-card">
+                <h3>汽车焊装线优化</h3>
+                <p>解决机器人同步误差问题，节拍时间缩短18%</p>
+                <p>采用SCL语言重构控制逻辑，减少故障率42%</p>
+            </div>
+            
+            <div class="project-card">
+                <h3>锂电池生产线改造</h3>
+                <p>开发设备健康管理平台，MTBF提升至8000小时</p>
+                <p>实现关键参数实时监控与预测性维护</p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div style="text-align:center;padding:2rem;background:#1A1A1A;color:white">
+            <h3>立即咨询</h3>
+            <button style="padding:1rem 2rem;background:#FFD700;border:none;border-radius:25px;">预约诊断服务</button>
+        </div>
+    </footer>
+
+    <script>
+        function showDemo() {
+            alert('PLC优化案例演示功能即将上线，敬请期待！');
+        }
+    </script>
+</body>
+</html>
